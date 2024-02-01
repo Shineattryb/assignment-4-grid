@@ -4,7 +4,7 @@ import Header from './components/header';
 import Sidebar from './components/sidebar';
 import Content1 from './components/content1';
 import Content2 from './components/content2';
-
+import Content3 from './components/content3';
 import Footer from './components/footer';
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
 <Content1  classname='content1'/>
 
 {/* <div className='content-gap'> */}
-<Content2 text="Content2" classname='c2'/>
-<Content2 text="Content3" classname='c3'/>
+<Content2 text="Content2" />
+<Content3 />
 {/* </div>
 </div>
 </div> */}
